@@ -50,3 +50,9 @@ Random exercises done over the years.
 * Carousel
 * Match Two
 * Fruit Display
+
+## 5. PHP
+
+* Array
+* Vehicles
+* Heroes
