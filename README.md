@@ -29,4 +29,10 @@ Random exercises done over the years.
 ### 1.4 Testing
 * Bubble-sort
 
+## 2. Python
+* Hangman
+* Students
 
+## 3. Databases
+
+* Media DB
