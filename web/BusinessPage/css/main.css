@@ -1,0 +1,863 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header
+{
+	width: 100%;
+	position:relative;
+}
+
+.carouselWrapper
+{
+
+	position:relative;
+	width: 100%;
+}
+
+.jcarousel
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.jcarousel ul {
+    width: 500%;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+		width: 20%;
+    float: left;
+}
+
+.jcarousel ul li img
+{
+	width: 100%;
+}
+
+
+.jcarousel-pagination
+{
+	width:5.26%;
+  position:absolute;
+  bottom: 5px;
+	margin-left: 47.37%;
+	margin-right: 47.37%;
+}
+
+.carouselIcon
+{
+	width: 18%;
+  float:left;
+	margin-right: 15%;
+}
+
+.carouselIcon img
+{
+	width: 100%;
+}
+
+.active .carouselIcon img
+{
+/*content:url("../images/carousel_active.png");*/
+}
+
+header .topLine
+{
+	width: 100%;
+	background-color: rgba(119,91,163,0.5);
+	position:absolute;
+	float: left;
+	z-index: 1;
+}
+
+.mainContainer
+{
+	width: 65%;
+	margin: 0px 17.5%;
+
+}
+
+.logo
+{
+	float: left;
+	width: 21.367%;
+	margin-top: 0.2%;
+	margin-bottom: 1.05%;
+}
+.logo img
+{
+	width: 61%;
+}
+
+header nav
+{
+	float: left;
+	width: 57.266%;
+}
+
+.userIcons
+{
+	float: left;
+	width: 21.367%;
+	margin-top: 2%;
+	margin-bottom: 1.05%;
+}
+
+.icon
+{
+	float: left;
+	width: 33.33%;
+}
+
+.icon img
+{
+	width:30%;
+}
+
+.loginButton img
+{
+	float: left;
+	margin-left: 1vw;
+}
+
+.topLine nav a
+{
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: arial;
+    font-size: 1.1vw;
+    padding: 3.9% 1%;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #444;
+    text-transform: uppercase;
+    margin: 0px 1%;
+}
+
+.topLine nav a:hover
+{
+	border-bottom: 1px solid #f8e1b4;
+}
+
+
+.loginButton
+{
+	float: left;
+	width: 21.367%;
+}
+
+section
+{
+	width: 100%;
+	display: block;
+	padding: 5% 0%;
+	float: left;
+}
+
+section.greenBottom
+{
+	border-bottom: 1px solid #91c5a9;
+}
+
+section.greyBack
+{
+	background-color: #fcfcfc;
+}
+
+
+section.purpleBack
+{
+	background-color: #775ba3;
+}
+
+
+section h2
+{
+	color: #775ba3;
+	font-size: 2.1vw;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 3%;
+	font-family: arial;
+}
+
+section p
+{
+	color: #4b3f55;
+	font-size: 1.5vw;
+	text-align: center;
+	line-height: 150%;
+}
+
+
+section .columns
+{
+	width: 100%;
+	float: left;
+
+
+}
+
+section .columns .column
+{
+	width: 33.3%;
+	float: left;
+
+}
+
+.topColImage
+{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.topColImage img
+{
+	width: 27%;
+}
+
+.column:nth-of-type(1) .topColImage:after,
+.column:nth-of-type(2) .topColImage:after
+{
+	content: " ";
+	width: 73%;
+	height: 10%;
+	position: absolute;
+	top: 44%;
+	background-image: url('../images/line.png');
+	background-size: cover;
+}
+
+
+.textInfo
+{
+	margin-top: 15%;
+	color: #4b3f55;
+	font-size: 1vw;
+	text-align: center;
+	font-weight: bold;
+	line-height: 140%;
+}
+
+.textNumber
+{
+	color: #91c5a9;
+	font-family: arial;
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+.personImage
+{
+	width: 90%;
+	margin-left: 10%;
+	position: relative;
+	float:left;
+}
+
+.personImage img
+{
+	width: 100%;
+	border-bottom: 3px solid #91c5a9;
+}
+
+
+.nameAndPos
+{
+
+		border-bottom: 3px solid #91c5a9;
+		width: 90%;
+		margin-left: 10%;
+		float:left;
+
+}
+.personName
+{
+		color: #91c5a9;
+		font-size: 1vw;
+		margin-right: 4%;
+		float:left;
+}
+
+.personPosition
+{
+	color: #91c5a9;
+	font-size: 0.8vw;
+	float:left;
+	margin-top: 1%;
+}
+
+.personInfo
+{
+	width: 90%;
+	margin-left: 10%;
+	float:left;
+	color: #4b3f55;
+	font-size: 0.8vw;
+	text-align: left;
+	line-height: 140%;
+	margin-top: 4%;
+}
+
+.socialMedias
+{
+	width: 90%;
+	margin-left: 10%;
+	float:left;
+	margin-top: 4%;
+}
+
+.facebook
+{
+	background-color: #3b5998;
+	width: 50%;
+	position: relative;
+	float: left;
+	font-size: 2.5vw;
+}
+
+.google
+{
+	background-color: #d14333;
+	width: 50%;
+	position: relative;
+	float: left;
+	font-size: 2.5vw;
+}
+
+.dribbble
+{
+	background-color: #ea4c88;
+	width: 50%;
+	position: relative;
+	float: left;
+	font-size: 2.5vw;
+}
+
+.twitter
+{
+	background-color: #00aced;
+	width: 50%;
+	position: relative;
+	float: left;
+	font-size: 2.5vw;
+}
+
+.youTube
+{
+	background-color: #c70c0c;
+	width: 50%;
+	position: relative;
+	float: left;
+	font-size: 2.5vw;
+}
+
+.socialMedias a
+{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.fa
+{
+	  padding-top: 3%;
+		margin-left: 40%;
+
+
+}
+
+.invertedColor
+{
+	color: #ffffff;
+}
+
+.linePurple
+{
+	width: 50%;
+	float: left;
+}
+
+.purpleInfo
+{
+	width: 90%;
+	margin-left: 10%;
+	position: relative;
+	float:left;
+}
+
+.purpleInfo h3
+{
+	color: #ffffff;
+	font-size: 1.8vw;
+	text-align: left;
+	margin-bottom: 7%;
+	line-height: 140%;
+}
+
+.paraInfo
+{
+	color: #ffffff;
+	font-size: 0.9vw;
+	text-align: left;
+	margin-bottom: 7%;
+	line-height: 140%;
+}
+
+.lireButton
+{
+	color: #ffffff;
+	font-size: 1.3vw;
+	text-align: left;
+	margin-bottom: 7%;
+	width: 34.48%;
+	border: 3px solid #ffffff;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.buttonText
+{
+	margin-left: 24%;
+	width: 100%;
+	font-family: Arial;
+
+}
+
+.purpleInfo a
+{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.pictureContainer
+{
+	width: 95%;
+	margin-left: 5%;
+	position: relative;
+	float:left;
+}
+
+.pictureContainer img
+{
+	width: 100%;
+}
+
+#img1
+{
+	margin-top: 10%;
+}
+
+#img2
+{
+	margin-bottom: 10%;
+}
+
+.heart
+{
+  width: 1%;
+}
+
+.heart img
+{
+	width: 2.1%;
+}
+
+.quote
+{
+	width: 100%;
+	float: left;
+}
+
+.picture
+{
+	width: 20%;
+	float: left;
+}
+
+.picture img
+{
+	width: 100%;
+}
+
+.quoteInfo
+{
+	width: 80%;
+	float: left;
+}
+
+.quoteText
+{
+	width: 95%;
+	margin-right: 2%;
+	padding-left: 3%;
+	color: #4b3f55;
+	font-size: 1.5vw;
+	text-align: left;
+	line-height: 150%;
+}
+
+.quotePerson
+{
+	margin-top: 2%;
+	width: 98%;
+	text-align: right;
+	color: #7e63a8;
+	font-size: 1vw;
+	margin-right: 3%;
+}
+
+#quoteSign1
+{
+	width: 100%;
+	text-align: left;
+	color: #91c5a9;
+	font-size: 2.5vw;
+}
+
+#quoteSign2
+{
+	width: 100%;
+	text-align: right;
+	color: #91c5a9;
+	font-size: 2.5vw;
+	direction: rtl;
+}
+
+
+.jcarousel-pagination2
+{
+
+	width:5.26%;
+  position:absolute;
+  bottom: -6%;
+	margin-left: 47.37%;
+	margin-right: 47.37%;
+}
+
+.portfolioNav
+{
+	padding-left: 21%;
+	float: left;
+	width: 70%;
+}
+
+.portfolioNav a
+{
+	float: left;
+	margin-left: 7%;
+	text-align: center;
+	text-decoration: none;
+	color: #7e63a7;
+	font-size: 1.2vw;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.portfolioNav a:hover
+{
+	border-bottom: 2px solid #91c5a9;
+}
+
+.artworkContainer
+{
+	margin-top: 11%;
+	width: 100%;
+
+}
+
+.artworkImage
+{
+	position: relative;
+	float:left;
+	width: 25%;
+}
+
+.imageLayer
+{
+	position: relative;;
+	width: 100%;
+}
+
+.opacityLayer
+{
+	display: none;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+
+.imageButtons
+{
+	width:100%;
+}
+
+.imageButtons img
+{
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 20%;
+	padding-bottom: 15%;
+}
+
+#leftButton
+{
+	display: none;
+	top: 40%;
+	left: 33%;
+	position: absolute;
+	width: 17%;
+	background-color: #f98a5f;
+}
+
+#rightButton
+{
+	display: none;
+	padding-top: 1.8%;
+	padding-bottom: 2.2%;
+	top: 40%;
+	left: 53%;
+	position: absolute;
+	width: 17%;
+	background-color: #f98a5f;
+}
+
+footer
+{
+		float: left;
+		background-color: #91c5a9;
+		width: 100%;
+		padding: 5% 0%;
+		position:relative;
+}
+
+footer .columns
+{
+	width: 100%;
+	float: left;
+
+
+}
+
+.footerColumn
+{
+	width: 23%;
+	float: left;
+	margin-left: 2%;
+}
+
+.columnTitle
+{
+	width: 100%;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 1.3vw;
+	text-align: center;
+	margin-bottom: 7%;
+}
+
+.textContent
+{
+	width: 100%;
+	color: #ffffff;
+	font-size: 0.8vw;
+	text-align: left;
+	line-height: 120%;
+}
+
+.tagLine
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.tagBox
+{
+	padding: 4% 4%;
+	font-size: 0.75vw;
+	margin-bottom: 2%;
+	margin-left: 6%;
+	background-color: #419568;
+	color: #ffffff;
+	position: relative;
+	float:left;
+	font-family: arial;
+}
+
+.name
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.email
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.message
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+label
+{
+	font-size: 0.8vw;
+	padding-top: 4%;
+	padding-right: 8%;
+	width: 15%;
+	position: relative;
+	float:left;
+	font-family: arial;
+	color: #ffffff;
+}
+
+input
+{
+	width:  70%;
+	position: relative;
+	float:left;
+}
+
+#name
+{
+	width: 70%;
+}
+
+textarea
+{
+	width:  70%;
+	position: relative;
+	float:left;
+}
+
+.infoContent
+{
+	width: 100%;
+	color: #ffffff;
+	font-size: 0.8vw;
+	text-align: center;
+	line-height: 120%;
+}
+
+footer .bottomLine
+{
+	width: 100%;
+	background-color: #54865d;
+	position:absolute;
+	bottom: 0;
+	float: left;
+	z-index: 1;
+}
+
+.copyright
+{
+	width: 50%;
+	color: #ffffff;
+	position: relative;
+	float: left;
+	font-size: 0.8vw;
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+	padding-right: 20%;
+}
+
+.mainContainer .footerNav
+{
+	width: 30%;
+	color: #ffffff;
+	position: relative;
+	float: left;
+	font-size: 0.8vw;
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+}
+
+.mainContainer .footerNav .footerA
+{
+	color: #ffffff;
+	position: relative;
+	float: left;
+	font-size: 0.8vw;
+	margin-left: 3%;
+	font-family: arial;
+	text-decoration: none;
+}
+
+@media all and (max-width: 640px)
+{
+	section .columns .column
+	{
+		width: 100%;
+
+	}
+	.column:nth-of-type(1) .topColImage:after,
+	.column:nth-of-type(2) .topColImage:after
+	{
+		display: none;
+	}
+}

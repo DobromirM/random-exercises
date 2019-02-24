@@ -1,0 +1,48 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	background-color: #eee;
+	overflow: hidden;
+}
+
+.whiteBG {
+	width: 100%;
+	height: 50%;
+	bottom: 0;
+	position: absolute;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.mainContainer {
+	width: 200%;
+	position: relative;
+	float: left;
+	margin-top: -4.89%;
+}
+
+.fruit {
+	width: 4.1%;
+	position: relative;
+	float:left;
+}
+
+.fruit span{
+	display: none;
+	font-size: 1vw;
+	padding-top: 0.3vw;
+	padding-bottom: 0.3vw;
+	border-radius: 0.4vw;
+	position: relative;
+	float:left;
+	text-align: center;
+	font-family: Arial;
+  width: 60%;
+	margin-left: 20%;
+	color: #fff;
+	background-color: #000;
+}
+
+.fruit img {
+	width: 100%;
+}

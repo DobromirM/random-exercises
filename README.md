@@ -36,3 +36,17 @@ Random exercises done over the years.
 ## 3. Databases
 
 * Media DB
+
+## 4. Web
+
+* Range Converter
+* Grading
+* Calculator
+* Web Basics
+* Positions
+* Responsive
+* Business Page
+* Lottery
+* Carousel
+* Match Two
+* Fruit Display

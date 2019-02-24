@@ -1,0 +1,40 @@
+th
+{
+	color: red;
+	padding-right: 12px;
+	padding-left: 12px;
+	text-align: center;
+}
+
+td
+{
+	text-align: center;
+}
+
+textarea 
+{
+   resize: none;
+}
+
+.name
+{
+	color: blue;
+}
+
+.max
+{
+	color: blue;
+}
+
+#clear
+{
+	margin-top: 20px;
+	margin-left: 450px;
+	margin-right: 20px;
+}
+
+#total
+{
+    width: 35px;
+    text-align: right;
+}

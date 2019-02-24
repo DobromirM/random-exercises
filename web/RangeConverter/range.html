@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Range</title>
+	<link rel="stylesheet" type="text/css" href="range.css" />
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="range.js"></script>
+</head>
+
+<body>
+	<div>Range:
+		<input type="text" id="rangeLeft"> - <input type="text" id="rangeRight">
+		<span id="left" class="error-message">The left number must be positive integer!</span>
+		<span id="right" class="error-message">The right number must be non-negative integer!</span>
+	</div>
+
+	<div>Unit of measurement:
+		<select name="unit" id="unit">
+		    <option value="km">Kilometers</option>
+		    <option value="mi">Miles</option>
+	  	</select>
+	</div>
+
+	<button type="button" id="calculate">Calculate</button>
+
+	<table id="unit-table">
+
+		<thead>
+			<tr>
+				<th id="unit-from"></th>
+				<th id="unit-to"></th>
+			</tr>
+		</thead>
+			
+		<tbody>	
+		</tbody>
+
+	</table>	
+
+</body>
+
+</html>

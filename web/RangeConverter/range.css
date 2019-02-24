@@ -1,0 +1,43 @@
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table
+{
+	visibility: hidden;
+}
+
+th
+{
+	padding: 5px;
+	background-color: #E0E0E0;
+}
+
+td
+{
+	padding: 1px;
+	text-align: right;
+}
+
+div
+{
+	margin-top: 10px;
+}
+
+button
+{
+	margin: 10px 0;
+}
+
+tr:nth-child(even)
+{
+	color: HotPink;
+}
+
+.error-message
+{
+	display: none;
+	color: red;
+}
